@@ -1,1 +1,1 @@
-Output from the otel-collector goes here. 
+Output from the otel-collector goes here.

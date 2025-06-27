@@ -2,7 +2,7 @@
 
 Sends spans to a zipkin-compatible collector.
 
-## Usage 
+## Usage
 
 First run the zipkin collector:
 

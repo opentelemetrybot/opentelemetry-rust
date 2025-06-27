@@ -1,6 +1,6 @@
 # Examples
 
-This directory contains some examples that should help you get start crates from `opentelemetry-rust`.
+This directory contains some examples that should help you get started with crates from `opentelemetry-rust`.
 
 ## log-basic
 
