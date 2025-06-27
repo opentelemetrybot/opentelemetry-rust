@@ -1,5 +1,9 @@
 # OpenTelemetry Rust
 
+![OpenTelemetry — An observability framework for cloud-native software.][splash]
+
+[splash]: https://raw.githubusercontent.com/open-telemetry/opentelemetry-rust/main/assets/logo-text.png
+
 The Rust [OpenTelemetry](https://opentelemetry.io/) implementation.
 
 [![Crates.io: opentelemetry](https://img.shields.io/crates/v/opentelemetry.svg)](https://crates.io/crates/opentelemetry)
@@ -98,7 +102,7 @@ The following crates are maintained in this repo:
   [Prometheus](https://prometheus.io/docs/prometheus/latest/feature_flags/#otlp-receiver)
   or [vendor specific endpoints](https://opentelemetry.io/ecosystem/vendors/).
 * [`opentelemetry-stdout`] exporter for sending logs, metrics and traces to
-  stdout, for learning/debugging purposes.  
+  stdout, for learning/debugging purposes.
 * [`opentelemetry-http`] This crate contains utility functions to help with
   exporting telemetry, propagation, over [`http`].
 * [`opentelemetry-appender-log`] This crate provides logging appender to route
@@ -106,7 +110,7 @@ The following crates are maintained in this repo:
   opentelemetry.
 * [`opentelemetry-appender-tracing`] This crate provides logging appender to
   route logs emitted using the [tracing](https://crates.io/crates/tracing) crate
-  to opentelemetry.  
+  to opentelemetry.
 * [`opentelemetry-jaeger-propagator`] provides context propagation using [jaeger
   propagation
   format](https://www.jaegertracing.io/docs/1.18/client-libraries/#propagation-format).
