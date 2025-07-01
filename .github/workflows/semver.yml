@@ -1,11 +1,11 @@
 name: Semver compliance
 env:
   CI: true
-permissions:
-  contents: read
 on:
   pull_request:
     types: [ labeled, synchronize, opened, reopened ]
+permissions:
+  contents: read
 jobs:
   semver-compliance: # This job uses the latest published crate as baseline for comparison.
     runs-on: ubuntu-latest
